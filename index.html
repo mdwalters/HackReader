@@ -4,11 +4,19 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
         <title>HackReader</title>
     </head>
     <body>
+        <div class="container-fluid bg-light p-2 gap-2 sticky-top">
+            <span class="me-1">
+                <button class="btn btn-primary" id="new">new</button>
+                <button class="btn btn-primary" id="top">top</button>
+                <button class="btn btn-primary" id="best">best</button>
+                <button class="btn btn-primary" id="ask">ask</button>
+                <button class="btn btn-primary" id="show">show</button>
+            </span>
+        </div>
         <div id="story0">
             <div class="rounded border m-2 ps-2 pt-1 bg-light placeholder-glow">
                 <h4><span class="text-muted">1</span> <span class="placeholder col-6"></span></h4>
@@ -189,6 +197,7 @@
                 <small><span class="placeholder col-6 mb-2"></span></small>
             </div>
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     </body>
     <script src="./lib/index.js"></script>
 </html>
